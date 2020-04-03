@@ -11,9 +11,9 @@ I've build some forms, both using nearly-pure HTML and also using the helper met
 > $ bundle install
 
 > $ rails server
-# to create new users go to
+### create new users go to
 http://127.0.0.1:3000/users/new 
-# to edit user in a database go to
+### edit user in a database go to
 http://127.0.0.1:3000/users/1/edit
 
 
