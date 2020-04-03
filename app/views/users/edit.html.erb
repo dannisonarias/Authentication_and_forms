@@ -1,4 +1,9 @@
 <%= form_for @user do |f| %>
+  <% @user.errors.full_messages.each do |error| %>
+   <strong style="color:red;">
+       <%= error %>
+   </strong><br>
+  <% end %>
   Username:<%= f.text_field :username, placeholder: @user.username %><br />
   Email: <%= f.text_field :email , placeholder: @user.email %><br />
   Password : <%= f.password_field :password, placeholder: "Enter Password here" %><br />
