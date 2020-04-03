@@ -1,24 +1,48 @@
-# README
+# 1: Bare Metal Forms and Helpers
+In this project, I've build a form the old fashioned way and then the Rails way.
+In the front-end you can add new users and edit users in the database.
+I've build some forms, both using nearly-pure HTML and also using the helper methods that Rails provides. 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Install
+1 - Install 
 
-Things you may want to cover:
+> $ git clone <respositoryURL>
+> $ bundle install
+> $ rails server
+# to create new users go to
+http://127.0.0.1:3000/users/new 
+# to edit user in a database go to
+http://127.0.0.1:3000/users/1/edit
 
-* Ruby version
 
-* System dependencies
+## Built With
 
-* Configuration
+- Ruby on Rails
+- VSCode
 
-* Database creation
+## Author
 
-* Database initialization
+👤 **Dannison Arias**
 
-* How to run the test suite
+- Github: [@dannisonarias](https://github.com/dannisonarias)
+- Twitter: [@AriasDannison](https://twitter.com/AriasDannison)
+- Linkedin: [Dannison Arias](https://www.linkedin.com/in/dannison-arias-777919190/)
 
-* Services (job queues, cache servers, search engines, etc.)
+## 🤝 Contributing
 
-* Deployment instructions
+Contributions, issues and feature requests are welcome!
 
-* ...
+Feel free to check the [issues page](issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Microverse
+- The Odin Project
+
+## 📝 License
+
+This project is [MIT](./license.md) licensed.
