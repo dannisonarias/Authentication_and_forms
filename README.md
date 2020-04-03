@@ -7,7 +7,9 @@ I've build some forms, both using nearly-pure HTML and also using the helper met
 1 - Install 
 
 > $ git clone <respositoryURL>
+
 > $ bundle install
+
 > $ rails server
 # to create new users go to
 http://127.0.0.1:3000/users/new 
