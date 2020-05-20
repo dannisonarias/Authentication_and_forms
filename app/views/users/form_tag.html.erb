@@ -1,0 +1,12 @@
+<%= form_tag"/users" do%>
+<%= label_tag 'Username' %>
+<%= text_field_tag 'user[username]' %><br>
+<%= label_tag 'Email' %>
+<%= text_field_tag 'user[email]' %><br>
+<%= label_tag 'Password' %>
+<%= password_field_tag 'user[password]' %>
+<%= submit_tag %>
+<%end%>
+
+
+
